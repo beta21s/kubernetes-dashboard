@@ -7,6 +7,7 @@ Kubernetes Dashboard là một giao diện web để quản lý các tài nguyê
 ### Cách cài đặt
 
 ```
+{
 git clone https://github.com/beta21s/kubernetes-dashboard.git
 cd kubernetes-dashboard
 
@@ -14,6 +15,7 @@ kubectl apply -f recommended.yaml
 kubectl apply -f dashboard-admin.yaml
 kubectl apply -f components.yaml
 kubectl apply -f dashboard-admin-bind-cluster-role.yaml
+}
 ```
 
 ### Cách lấy tolken
