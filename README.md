@@ -18,6 +18,18 @@ kubectl apply -f dashboard-admin-bind-cluster-role.yaml
 }
 ```
 
+```
+{
+git clone https://github.com/beta21s/kubernetes-dashboard.git
+cd kubernetes-dashboard
+
+kubectl delete -f recommended.yaml
+kubectl delete -f dashboard-admin.yaml
+kubectl delete -f components.yaml
+kubectl delete -f dashboard-admin-bind-cluster-role.yaml
+}
+```
+
 ### Cách lấy tolken
 
 ``` 
